@@ -23,9 +23,9 @@
 cmake_minimum_required(VERSION 3.4)
 
 include("cmake/HunterGate.cmake")
-huntergate(
-  URL "https://github.com/ruslo/hunter/archive/v0.23.83.tar.gz"
-  SHA1 "12dec078717539eb7b03e6d2a17797cba9be9ba9"
+HunterGate(
+    URL "https://github.com/cpp-pm/hunter/archive/v0.25.5.tar.gz"
+    SHA1 "a20151e4c0740ee7d0f9994476856d813cdead29"
 )
 
 set(WDC_VERSION_MAJOR 1)
